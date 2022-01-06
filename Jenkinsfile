@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('first stage') {
       steps {
-        sh 'grep user /etc/passwd/'
+        sh 'user /etc/passwd'
       }
     }
 
